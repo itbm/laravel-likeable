@@ -3,10 +3,8 @@
 ![cog-laravel-likeable](https://user-images.githubusercontent.com/1849174/28696355-c4a06a96-733d-11e7-8cc5-af5d60bf5e20.png)
 
 <p align="center">
-<a href="https://travis-ci.org/cybercog/laravel-likeable"><img src="https://img.shields.io/travis/cybercog/laravel-likeable/master.svg?style=flat-square" alt="Build Status"></a>
-<a href="https://styleci.io/repos/67549571"><img src="https://styleci.io/repos/67549571/shield" alt="StyleCI"></a>
-<a href="https://github.com/cybercog/laravel-likeable/releases"><img src="https://img.shields.io/github/release/cybercog/laravel-likeable.svg?style=flat-square" alt="Releases"></a>
-<a href="https://github.com/cybercog/laravel-likeable/blob/master/LICENSE"><img src="https://img.shields.io/github/license/cybercog/laravel-likeable.svg?style=flat-square" alt="License"></a>
+<a href="https://github.com/itbm/laravel-likeable/releases"><img src="https://img.shields.io/github/release/itbm/laravel-likeable.svg?style=flat-square" alt="Releases"></a>
+<a href="https://github.com/itbm/laravel-likeable/blob/master/LICENSE"><img src="https://img.shields.io/github/license/itbm/laravel-likeable.svg?style=flat-square" alt="License"></a>
 </p>
 
 ## Attention
@@ -62,7 +60,7 @@ Laravel Likeable simplify management of Eloquent model's likes & dislikes. Make 
 First, pull in the package through Composer.
 
 ```sh
-$ composer require cybercog/laravel-likeable
+$ composer require itbm/laravel-likeable
 ```
 
 **If you are using Laravel 5.5 you can skip register package part.** 
