@@ -32,7 +32,11 @@ trait Likeable
      */
     public static function bootLikeable()
     {
-        static::observe(ModelObserver::class);
+        // A closure listener does not make a model instance while the model
+        // is booting, which Laravel 13 does not allow
+        static::deleted(function ($likeable) {
+            app(ModelObserver::class)->deleted($likeable);
+        });
     }
 
     /**
